@@ -1,12 +1,12 @@
-import { Navbar, ButtonMenu } from "./components";
-import { Hero } from './pages'
+import { Navbar } from "./components";
+import { Home } from './pages'
 
 
 function App() {
   return (
     <div className="">
       <Navbar />
-      <Hero />
+      <Home />
     </div>
   );
 }

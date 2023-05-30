@@ -1,6 +1,6 @@
 import React from 'react'
-import Coral from '../assets/coral2.jpg'
-import { VideoModal } from '../components'
+import Coral from '../../assets/coral2.jpg'
+import { VideoModal } from '..'
 
 const Home = () => {
     return (
