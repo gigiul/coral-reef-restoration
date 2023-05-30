@@ -59,6 +59,14 @@ main p {
     text-align: justify;
 }
 
+main a {
+    font-size: 2em;
+    color: #7F3300;
+    margin-top: 1.1em;
+    text-align: justify;
+    text-decoration: underline;
+}
+
 
 
 #contain {

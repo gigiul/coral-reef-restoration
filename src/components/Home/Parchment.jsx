@@ -8,7 +8,8 @@ const Parchment = () => {
             <main className=''>
                 <div id="parchment" className=''></div>
                 <div id="contain">
-                    <p className='text-3xl 2xl:text-5xl'>
+                    <a className='text-2xl text-center md:text-2xl 2xl:text-3xl' href='restoration'>Look our Coral Restoration structures → </a>
+                    <p className='text-3xl leading-8 2xl:text-5xl'>
                         Charles Darwin first noticed that corals rolling around under his ship quickly turned white and died, but by securing the loose coral to a piece of bamboo pounded in the sand they would survive.
                         For this he is credited with being the first coral restorationist. </p>
                 </div>
