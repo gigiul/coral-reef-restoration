@@ -1,17 +1,16 @@
 import React from 'react'
+import CardReef from './CardReef'
+import { firstReefCard, secondReefCard } from '../../constants'
 
 const CoralReefDetails = () => {
-  return (
-    <div className='w-full bg-gradient-to-b from-[#0981D1] to-blue-900 pt-36'>
-        <p>asdawd</p>
-        <p>asdawd</p>
-        <p>asdawd</p>
-        <p>asdawd</p>
-        <p>asdawd</p>
-        <p>asdawd</p>
-
-    </div>
-  )
+    return (
+        <div className=''>
+            <div className='flex flex-col md:flex-row justify-center items-center'>
+                <CardReef obj={firstReefCard} />
+                <CardReef obj={secondReefCard} />
+            </div>
+        </div>
+    )
 }
 
 export default CoralReefDetails

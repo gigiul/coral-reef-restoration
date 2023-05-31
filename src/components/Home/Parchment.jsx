@@ -1,5 +1,5 @@
 import React from 'react'
-import './Darwin.css'
+import './css/Parchment.css'
 
 
 const Parchment = () => {

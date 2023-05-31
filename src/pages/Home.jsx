@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, Darwin, CoralReef, CoralReefDetails } from '../components/Home'
+import { Hero, Darwin, CoralReef, CoralReefDetails, CardReef } from '../components/Home'
 
 const Home = () => {
   return (
@@ -7,7 +7,6 @@ const Home = () => {
         <Hero />
         <Darwin />
         <CoralReef />
-        <CoralReefDetails />
     </div>
   )
 }
